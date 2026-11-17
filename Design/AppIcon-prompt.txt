@@ -1,0 +1,7 @@
+WeightSumMore app icon
+Generated with the built-in image generation tool.
+Installed asset: FitnessTracker/Assets.xcassets/AppIcon.appiconset/AppIcon.png
+Final asset: 1024 x 1024 pixels, opaque PNG.
+
+Prompt:
+Use case: logo-brand. Create the final production iOS app icon for WeightSumMore, a fitness, calorie-balance and weight-progress tracker. One square 1024 by 1024 app icon, opaque edge-to-edge charcoal black background (#0F0F12), no rounded outer corners (iOS applies its mask). Center a distinctive bold cyan (#00E5FF) stylized checkmark merging with an ascending three-step activity graph, a simple unified sculptural glyph with smoothly rounded ends and a small clean break to suggest forward motion. Cyan face with very subtle turquoise edge depth, restrained crisp premium finish, strong silhouette readable at 40 pixels. The glyph occupies about 65 percent of the image, optically centered, generous clear space. No text, no letters, no mockup, no border, no extra symbols, no medical cross, no multicolor rainbow, no soft outer glow, no gradients in the background. Single icon only.

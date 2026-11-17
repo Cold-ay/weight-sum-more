@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000123 /* HealthWorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000027 /* HealthWorkoutService.swift */; };
+		100000000000000000000124 /* FoodCalorieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000028 /* FoodCalorieService.swift */; };
+		100000000000000000000125 /* HealthImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000029 /* HealthImportView.swift */; };
+		100000000000000000000126 /* FoodCalorieGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002A /* FoodCalorieGuideView.swift */; };
+		100000000000000000000127 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002B /* InfoPlist.xcstrings */; };
+		100000000000000000000206 /* HealthAndFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002D /* HealthAndFoodTests.swift */; };
+		100000000000000000000120 /* PeriodTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000024 /* PeriodTrends.swift */; };
+		100000000000000000000121 /* PeriodCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000025 /* PeriodCharts.swift */; };
+		100000000000000000000122 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000026 /* MoreView.swift */; };
+		10000000000000000000011C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001F /* Localization.swift */; };
+		10000000000000000000011D /* LogInsights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000020 /* LogInsights.swift */; };
+		10000000000000000000011E /* LogInsightViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000021 /* LogInsightViews.swift */; };
+		10000000000000000000011F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000022 /* Localizable.xcstrings */; };
+		100000000000000000000205 /* LogInsightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000023 /* LogInsightsTests.swift */; };
+		10000000000000000000011B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001E /* Assets.xcassets */; };
+		100000000000000000000101 /* WeightSumMoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* WeightSumMoreApp.swift */; };
+		100000000000000000000102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* ContentView.swift */; };
+		100000000000000000000103 /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* AppEnums.swift */; };
+		100000000000000000000104 /* HealthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* HealthModels.swift */; };
+		100000000000000000000105 /* UnitConversionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* UnitConversionService.swift */; };
+		100000000000000000000106 /* HealthCalculationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* HealthCalculationService.swift */; };
+		100000000000000000000107 /* DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* DateHelpers.swift */; };
+		100000000000000000000108 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000008 /* DashboardViewModel.swift */; };
+		100000000000000000000109 /* WeeklySummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000009 /* WeeklySummaryViewModel.swift */; };
+		10000000000000000000010A /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* UIComponents.swift */; };
+		10000000000000000000010B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000B /* MainTabView.swift */; };
+		10000000000000000000010C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000C /* OnboardingView.swift */; };
+		10000000000000000000010D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000D /* DashboardView.swift */; };
+		10000000000000000000010E /* ExerciseLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000E /* ExerciseLogView.swift */; };
+		10000000000000000000010F /* CaloriesLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000F /* CaloriesLogView.swift */; };
+		100000000000000000000110 /* WeightTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000010 /* WeightTrackingView.swift */; };
+		100000000000000000000112 /* WeeklySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000012 /* WeeklySummaryView.swift */; };
+		100000000000000000000113 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000013 /* SettingsView.swift */; };
+		100000000000000000000114 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000014 /* SampleData.swift */; };
+		100000000000000000000115 /* HealthValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000015 /* HealthValidationService.swift */; };
+		100000000000000000000116 /* FitnessDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000016 /* FitnessDataService.swift */; };
+		100000000000000000000117 /* AnalyticsViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000018 /* AnalyticsViewModels.swift */; };
+		100000000000000000000118 /* MonthlyGoalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001A /* MonthlyGoalService.swift */; };
+		100000000000000000000119 /* MonthlyGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001B /* MonthlyGoalView.swift */; };
+		10000000000000000000011A /* ProgressCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001D /* ProgressCharacterView.swift */; };
+		100000000000000000000201 /* HealthCalculationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000011 /* HealthCalculationServiceTests.swift */; };
+		100000000000000000000202 /* FitnessDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000017 /* FitnessDataServiceTests.swift */; };
+		100000000000000000000203 /* AnalyticsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000019 /* AnalyticsViewModelTests.swift */; };
+		100000000000000000000204 /* MonthlyGoalServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001C /* MonthlyGoalServiceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		100000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000401;
+			remoteInfo = FitnessTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000027 /* HealthWorkoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthWorkoutService.swift; sourceTree = "<group>"; };
+		100000000000000000000028 /* FoodCalorieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCalorieService.swift; sourceTree = "<group>"; };
+		100000000000000000000029 /* HealthImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthImportView.swift; sourceTree = "<group>"; };
+		10000000000000000000002A /* FoodCalorieGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCalorieGuideView.swift; sourceTree = "<group>"; };
+		10000000000000000000002B /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		10000000000000000000002C /* FitnessTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitnessTracker.entitlements; sourceTree = "<group>"; };
+		10000000000000000000002D /* HealthAndFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAndFoodTests.swift; sourceTree = "<group>"; };
+		100000000000000000000024 /* PeriodTrends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodTrends.swift; sourceTree = "<group>"; };
+		100000000000000000000025 /* PeriodCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodCharts.swift; sourceTree = "<group>"; };
+		100000000000000000000026 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		10000000000000000000001F /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		100000000000000000000020 /* LogInsights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInsights.swift; sourceTree = "<group>"; };
+		100000000000000000000021 /* LogInsightViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInsightViews.swift; sourceTree = "<group>"; };
+		100000000000000000000022 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		100000000000000000000023 /* LogInsightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInsightsTests.swift; sourceTree = "<group>"; };
+		10000000000000000000001E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100000000000000000000001 /* WeightSumMoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightSumMoreApp.swift; sourceTree = "<group>"; };
+		100000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		100000000000000000000004 /* HealthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModels.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* UnitConversionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionService.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* HealthCalculationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCalculationService.swift; sourceTree = "<group>"; };
+		100000000000000000000007 /* DateHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelpers.swift; sourceTree = "<group>"; };
+		100000000000000000000008 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000009 /* WeeklySummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummaryViewModel.swift; sourceTree = "<group>"; };
+		10000000000000000000000A /* UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
+		10000000000000000000000B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		10000000000000000000000C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		10000000000000000000000D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		10000000000000000000000E /* ExerciseLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLogView.swift; sourceTree = "<group>"; };
+		10000000000000000000000F /* CaloriesLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesLogView.swift; sourceTree = "<group>"; };
+		100000000000000000000010 /* WeightTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackingView.swift; sourceTree = "<group>"; };
+		100000000000000000000011 /* HealthCalculationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCalculationServiceTests.swift; sourceTree = "<group>"; };
+		100000000000000000000012 /* WeeklySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummaryView.swift; sourceTree = "<group>"; };
+		100000000000000000000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		100000000000000000000014 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		100000000000000000000015 /* HealthValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthValidationService.swift; sourceTree = "<group>"; };
+		100000000000000000000016 /* FitnessDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessDataService.swift; sourceTree = "<group>"; };
+		100000000000000000000017 /* FitnessDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessDataServiceTests.swift; sourceTree = "<group>"; };
+		100000000000000000000018 /* AnalyticsViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewModels.swift; sourceTree = "<group>"; };
+		100000000000000000000019 /* AnalyticsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewModelTests.swift; sourceTree = "<group>"; };
+		10000000000000000000001A /* MonthlyGoalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyGoalService.swift; sourceTree = "<group>"; };
+		10000000000000000000001B /* MonthlyGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyGoalView.swift; sourceTree = "<group>"; };
+		10000000000000000000001C /* MonthlyGoalServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyGoalServiceTests.swift; sourceTree = "<group>"; };
+		10000000000000000000001D /* ProgressCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCharacterView.swift; sourceTree = "<group>"; };
+		100000000000000000000402 /* WeightSumMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightSumMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000403 /* FitnessTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000601 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000602 /* FitnessTracker */,
+				100000000000000000000603 /* FitnessTrackerTests */,
+				100000000000000000000604 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000602 /* FitnessTracker */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* WeightSumMoreApp.swift */,
+				100000000000000000000002 /* ContentView.swift */,
+				10000000000000000000002B /* InfoPlist.xcstrings */,
+				10000000000000000000002C /* FitnessTracker.entitlements */,
+				100000000000000000000022 /* Localizable.xcstrings */,
+				10000000000000000000001E /* Assets.xcassets */,
+				100000000000000000000605 /* Models */,
+				100000000000000000000606 /* Services */,
+				100000000000000000000607 /* ViewModels */,
+				100000000000000000000608 /* Views */,
+				100000000000000000000609 /* SampleData */,
+			);
+			path = FitnessTracker;
+			sourceTree = "<group>";
+		};
+		100000000000000000000603 /* FitnessTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000011 /* HealthCalculationServiceTests.swift */,
+				100000000000000000000017 /* FitnessDataServiceTests.swift */,
+				100000000000000000000019 /* AnalyticsViewModelTests.swift */,
+				10000000000000000000001C /* MonthlyGoalServiceTests.swift */,
+				100000000000000000000023 /* LogInsightsTests.swift */,
+				10000000000000000000002D /* HealthAndFoodTests.swift */,
+			);
+			path = FitnessTrackerTests;
+			sourceTree = "<group>";
+		};
+		100000000000000000000604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000402 /* WeightSumMore.app */,
+				100000000000000000000403 /* FitnessTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000605 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000003 /* AppEnums.swift */,
+				100000000000000000000004 /* HealthModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		100000000000000000000606 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000027 /* HealthWorkoutService.swift */,
+				100000000000000000000028 /* FoodCalorieService.swift */,
+				100000000000000000000024 /* PeriodTrends.swift */,
+				10000000000000000000001F /* Localization.swift */,
+				100000000000000000000005 /* UnitConversionService.swift */,
+				100000000000000000000006 /* HealthCalculationService.swift */,
+				100000000000000000000007 /* DateHelpers.swift */,
+				100000000000000000000015 /* HealthValidationService.swift */,
+				100000000000000000000016 /* FitnessDataService.swift */,
+				10000000000000000000001A /* MonthlyGoalService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		100000000000000000000607 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000020 /* LogInsights.swift */,
+				100000000000000000000008 /* DashboardViewModel.swift */,
+				100000000000000000000009 /* WeeklySummaryViewModel.swift */,
+				100000000000000000000018 /* AnalyticsViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		100000000000000000000608 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000029 /* HealthImportView.swift */,
+				10000000000000000000002A /* FoodCalorieGuideView.swift */,
+				100000000000000000000025 /* PeriodCharts.swift */,
+				100000000000000000000026 /* MoreView.swift */,
+				100000000000000000000021 /* LogInsightViews.swift */,
+				10000000000000000000000A /* UIComponents.swift */,
+				10000000000000000000000B /* MainTabView.swift */,
+				10000000000000000000000C /* OnboardingView.swift */,
+				10000000000000000000000D /* DashboardView.swift */,
+				10000000000000000000000E /* ExerciseLogView.swift */,
+				10000000000000000000000F /* CaloriesLogView.swift */,
+				100000000000000000000010 /* WeightTrackingView.swift */,
+				100000000000000000000012 /* WeeklySummaryView.swift */,
+				100000000000000000000013 /* SettingsView.swift */,
+				10000000000000000000001B /* MonthlyGoalView.swift */,
+				10000000000000000000001D /* ProgressCharacterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		100000000000000000000609 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000014 /* SampleData.swift */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000401 /* FitnessTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000701 /* Build configuration list for PBXNativeTarget "FitnessTracker" */;
+			buildPhases = (
+				100000000000000000000801 /* Sources */,
+				100000000000000000000501 /* Frameworks */,
+				100000000000000000000901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessTracker;
+			productName = WeightSumMore;
+			productReference = 100000000000000000000402 /* WeightSumMore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000404 /* FitnessTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000702 /* Build configuration list for PBXNativeTarget "FitnessTrackerTests" */;
+			buildPhases = (
+				100000000000000000000802 /* Sources */,
+				100000000000000000000502 /* Frameworks */,
+				100000000000000000000902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				100000000000000000000302 /* PBXTargetDependency */,
+			);
+			name = FitnessTrackerTests;
+			productName = FitnessTrackerTests;
+			productReference = 100000000000000000000403 /* FitnessTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					100000000000000000000401 = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.HealthKit = { enabled = 1; };
+						};
+					};
+					100000000000000000000404 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 100000000000000000000401;
+					};
+				};
+			};
+			buildConfigurationList = 100000000000000000000700 /* Build configuration list for PBXProject "FitnessTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hant",
+				Base,
+			);
+			mainGroup = 100000000000000000000601;
+			productRefGroup = 100000000000000000000604 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000401 /* FitnessTracker */,
+				100000000000000000000404 /* FitnessTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000127 /* InfoPlist.xcstrings in Resources */,
+				10000000000000000000011F /* Localizable.xcstrings in Resources */,
+				10000000000000000000011B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000123 /* HealthWorkoutService.swift in Sources */,
+				100000000000000000000124 /* FoodCalorieService.swift in Sources */,
+				100000000000000000000125 /* HealthImportView.swift in Sources */,
+				100000000000000000000126 /* FoodCalorieGuideView.swift in Sources */,
+				100000000000000000000120 /* PeriodTrends.swift in Sources */,
+				100000000000000000000121 /* PeriodCharts.swift in Sources */,
+				100000000000000000000122 /* MoreView.swift in Sources */,
+				10000000000000000000011C /* Localization.swift in Sources */,
+				10000000000000000000011D /* LogInsights.swift in Sources */,
+				10000000000000000000011E /* LogInsightViews.swift in Sources */,
+				100000000000000000000101 /* WeightSumMoreApp.swift in Sources */,
+				100000000000000000000102 /* ContentView.swift in Sources */,
+				100000000000000000000103 /* AppEnums.swift in Sources */,
+				100000000000000000000104 /* HealthModels.swift in Sources */,
+				100000000000000000000105 /* UnitConversionService.swift in Sources */,
+				100000000000000000000106 /* HealthCalculationService.swift in Sources */,
+				100000000000000000000107 /* DateHelpers.swift in Sources */,
+				100000000000000000000108 /* DashboardViewModel.swift in Sources */,
+				100000000000000000000109 /* WeeklySummaryViewModel.swift in Sources */,
+				10000000000000000000010A /* UIComponents.swift in Sources */,
+				10000000000000000000010B /* MainTabView.swift in Sources */,
+				10000000000000000000010C /* OnboardingView.swift in Sources */,
+				10000000000000000000010D /* DashboardView.swift in Sources */,
+				10000000000000000000010E /* ExerciseLogView.swift in Sources */,
+				10000000000000000000010F /* CaloriesLogView.swift in Sources */,
+				100000000000000000000110 /* WeightTrackingView.swift in Sources */,
+				100000000000000000000112 /* WeeklySummaryView.swift in Sources */,
+				100000000000000000000113 /* SettingsView.swift in Sources */,
+				100000000000000000000114 /* SampleData.swift in Sources */,
+				100000000000000000000115 /* HealthValidationService.swift in Sources */,
+				100000000000000000000116 /* FitnessDataService.swift in Sources */,
+				100000000000000000000117 /* AnalyticsViewModels.swift in Sources */,
+				100000000000000000000118 /* MonthlyGoalService.swift in Sources */,
+				100000000000000000000119 /* MonthlyGoalView.swift in Sources */,
+				10000000000000000000011A /* ProgressCharacterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000206 /* HealthAndFoodTests.swift in Sources */,
+				100000000000000000000205 /* LogInsightsTests.swift in Sources */,
+				100000000000000000000201 /* HealthCalculationServiceTests.swift in Sources */,
+				100000000000000000000202 /* FitnessDataServiceTests.swift in Sources */,
+				100000000000000000000203 /* AnalyticsViewModelTests.swift in Sources */,
+				100000000000000000000204 /* MonthlyGoalServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100000000000000000000302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100000000000000000000401 /* FitnessTracker */;
+			targetProxy = 100000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000001001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		100000000000000000001002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		100000000000000000001003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = FitnessTracker/FitnessTracker.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WeightSumMore;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Read workouts and active energy from Health to import your Apple Watch and iPhone training history. Nothing is written to Health.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FitnessTracker;
+				PRODUCT_NAME = WeightSumMore;
+				PRODUCT_MODULE_NAME = FitnessTracker;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		100000000000000000001004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = FitnessTracker/FitnessTracker.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WeightSumMore;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Read workouts and active energy from Health to import your Apple Watch and iPhone training history. Nothing is written to Health.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FitnessTracker;
+				PRODUCT_NAME = WeightSumMore;
+				PRODUCT_MODULE_NAME = FitnessTracker;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		100000000000000000001005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FitnessTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightSumMore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeightSumMore";
+			};
+			name = Debug;
+		};
+		100000000000000000001006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FitnessTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightSumMore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeightSumMore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000700 /* Build configuration list for PBXProject "FitnessTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000001001 /* Debug */,
+				100000000000000000001002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000701 /* Build configuration list for PBXNativeTarget "FitnessTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000001003 /* Debug */,
+				100000000000000000001004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000702 /* Build configuration list for PBXNativeTarget "FitnessTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000001005 /* Debug */,
+				100000000000000000001006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000000 /* Project object */;
+}
